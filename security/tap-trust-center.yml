@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.tap3d.com/
+probe: true
+url: https://trust.tap3d.com/
+title: Training All People | Trust Center
+monitoring: Secureframe (continuous control monitoring)
+certifications: []          # no named certification badges (SOC 2/ISO 27001/etc.) explicitly published on the trust center
+control_families:
+- Change Management
+- Availability
+- Organizational Management
+- Incident Response
+- Risk Assessment
+- Access Security
+- Communications
+- Subprocessors
+subprocessors:
+- AWS
+- CockroachDB
+- Sentry
+- Segment
+- Amplitude
+- Google Analytics
+- HubSpot
+- Unity Gaming Services
+notes: >-
+  Trust center describes a full SOC 2-style control program (confidentiality, integrity, availability)
+  with vendor SOC 2 reports collected annually, but does not publish a named certification/attestation badge.
+evidence:
+- source: https://trust.tap3d.com/
+  keywords: [trust center, access security, incident response, risk assessment, secureframe, subprocessors]

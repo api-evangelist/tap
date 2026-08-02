@@ -1,7 +1,26 @@
 aid: tap
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tap.png
 name: Tap
-description: Tap is a company surfaced as a portfolio company of 8vc and added to the API Evangelist network
-  as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TAP (Training All People, Inc.) is a next-generation technician training platform for advanced and
+  precision manufacturers. TAP combines online courses (pneumatics, electrical fundamentals, robotics,
+  safety, and semiconductor basics) with immersive VR simulations that replicate real factory equipment
+  and procedures, plus in-simulation quizzes, VR scenario assessments, and workforce skills-profiling
+  dashboards. The platform lets manufacturers evaluate, standardize, and upskill their technician
+  workforce at scale while minimizing disruption to production. Customers include Northrop Grumman, ACC,
+  SUNY, and Dallas College. Backed by 8vc and surfaced into the API Evangelist network as a portfolio
+  company; TAP currently publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Training
+- Manufacturing
+- Virtual Reality
+- Workforce Development
+- Education
+- Skills Assessment
+- eLearning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,23 @@ maintainers:
 common:
 - type: Website
   url: https://tap3d.com
+- type: Login
+  url: https://app.tap3d.com/
+- type: Support
+  url: https://tap3d.freshdesk.com/support/home
+- type: TrustCenter
+  url: https://trust.tap3d.com/
+- type: PrivacyPolicy
+  url: https://tap3d.com/privacy
+- type: TermsOfService
+  url: https://tap3d.com/tos
+- type: DomainSecurity
+  url: security/tap-domain-security.yml
+- type: TrustCenter
+  name: TAP Trust Center artifact
+  url: security/tap-trust-center.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
